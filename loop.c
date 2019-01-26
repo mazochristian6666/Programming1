@@ -15,4 +15,10 @@ int main()
         y++;
     }
     while(y<100);
+    {
+    for(int z=0; z<100;z++)
+    {
+        printf("%i\n",z);
+    }
+    }
 }
