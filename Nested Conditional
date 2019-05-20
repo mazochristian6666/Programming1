@@ -1,0 +1,10 @@
+age=int(input("Enter your Age: "))
+if age>=18:
+    print("Are you registered?")
+    age=str(input("Enter Yes/No: "))
+    if age=="Yes":
+        print("You are allowed to vote")
+    elif age=="No":
+        print("Please register first to vote")
+    else: print("Please enter Yes or No")
+else: print("You are not allowed to register")
