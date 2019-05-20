@@ -1,0 +1,8 @@
+average= int(input("What is your average?"))
+if average>=90 and average<=100:
+    print("Excelent")
+elif average>=70 and average<=89:
+    print("Very good")
+elif average>=50 and average<=69:
+    print("good")
+else: print("Study more")
