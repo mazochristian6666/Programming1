@@ -1,0 +1,28 @@
+print("1. Addition");
+print("2. Subtraction");
+print("3. Multiplication");
+print("4. Division");
+print("5. Exit");
+x=0
+while x==0:
+    operation = int(input("Enter your choice: "))
+    if (operation>=1 and operation<=4):
+        print("Enter two numbers: ")
+        num1 = int(input())
+        num2 = int(input())
+        if operation == 1:
+    	    result = num1 + num2
+    	    print("Result = ", result)
+        elif operation == 2:
+    	    result = num1 - num2
+    	    print("Result = ", result)
+        elif operation == 3:
+    	    result = num1 * num2
+    	    print("Result = ", result)
+        else:
+    	    result = num1 / num2
+    	    print("Result = ", result)
+    elif operation == 5:
+        exit()
+    else:
+        print("Wrong input..!!")
