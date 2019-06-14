@@ -1,1 +1,14 @@
-
+spd = int(input("Enter speed(m/s): "))
+time = int(input("Enter time(in seconds): "))
+ 
+print("Distance traveled: " , spd * time, "m")
+ 
+dst = int(input("Enter distance traveled(in meters): "))
+time = int(input("Enter time(in seconds): "))
+ 
+print("Speed: " , dst / time, "m/s")
+ 
+spd = int(input("Enter speed(m/s): "))
+dst = int(input("Enter distance: "))
+ 
+print("Time to travel(assuming constant speed): " , dst / spd, "seconds")
