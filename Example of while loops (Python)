@@ -1,0 +1,12 @@
+import random
+ 
+number = 0
+ 
+number_of_times_looped = 0
+ 
+while number != 56:
+    number = random.randint(1,255)
+    print("The number is:",number)
+    number_of_times_looped += 1
+   
+print("number_of_times_looped: ", number_of_times_looped)
